@@ -32,8 +32,8 @@ class TuicoolSpider(scrapy.Spider):
                                           formdata={
                                               'utf8':'✓',
                                               'authenticity_token':authenticity_token,
-                                              'email':'814701007@qq.com',
-                                              'password':'snmnmfku7',
+                                              'email':'',
+                                              'password':'',
                                               'remember':'1'
                                            },
                                           callback=self.my_login,
